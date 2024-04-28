@@ -1,0 +1,18 @@
+Project Requirements:
+
+User Interaction: Utilize inquirer for interactive prompts to gather user input.
+Currency Data: Fetch real-time currency data from an API.
+Conversion Logic: Implement the core conversion functionality that can handle multiple currencies.
+Error Handling: Robust error checking to ensure the app can handle unexpected inputs or API failures gracefully.
+Output Formatting: Use chalk and figlet for colorful and styled CLI output.
+Suggested Features:
+
+Multi-Currency Support: Allow users to convert between a variety of currencies.
+Caching: Implement caching to reduce API calls for recently requested conversions.
+Favorite Currencies: Let users save frequently used currencies for quicker access.
+OOP Design:
+
+Currency Class: Represents a currency with properties like code, symbol, and methods for fetching its value against other currencies.
+Converter Class: Handles the conversion calculations between different Currency instances.
+Cache Class: Manages caching of currency data to optimize performance.
+UI Class: Manages all user interactions and displays using inquirer, chalk, and figlet.
